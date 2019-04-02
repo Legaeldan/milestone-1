@@ -6,6 +6,29 @@ body {
     margin: 0;
 }
 
+.landing-index {
+    height: 100vh;
+    background: url('../../assets/images/background1.jpg') no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-position: 53% 0%;
+}
+
+.bg-cover-opaque {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
 .logo-block {
     height: 120px;
     position: relative;
@@ -17,6 +40,7 @@ body {
 .navbar-links {
     text-align: center;
     padding-bottom: 15px;
+    z-index: 1;
     box-shadow: 5px 0px 5px 5px rgba(0, 0, 0, .75);
 }
 
