@@ -6,6 +6,12 @@ body {
     margin: 0;
 }
 
+.navbar-links li:not(:nth-child(3)):not(:nth-child(4)):not(:nth-child(6)) span {
+    border-right: 3px solid #ffffff;
+}
+
+
+
 .landing-index {
     height: 100vh;
     background: url('../../assets/images/background1.jpg') no-repeat bottom right fixed;
@@ -58,7 +64,7 @@ body {
     height: 100%;
     display: block;
     margin: auto;
-    padding-top: 10px
+    padding-top: 10px;
 }
 
 .navbar-links ul li {
@@ -76,7 +82,7 @@ body {
     padding-right: 10px;
 }
 
-@media(min-width: 576px) {
+@media(min-width: 768px) {
     .navbar img {
         margin-left: -10px;
         margin-right: 0;
@@ -89,5 +95,13 @@ body {
 
     .navbar-links {
         padding-bottom: 0;
+    }
+
+    .navbar-links li:not(:last-child) span {
+        border-right: 3px solid #ffffff;
+    }
+
+    .mobile-break {
+        display: none;
     }
 }
