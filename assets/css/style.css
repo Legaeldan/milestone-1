@@ -13,19 +13,7 @@ body {
 
 
 
-.landing-index {
-    height: 100vh;
-    background: url('../../assets/images/background1.jpg') no-repeat bottom right fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    background-position: 53% 0%;
-}
+
 
 .logo-main {
     position: absolute;
@@ -41,7 +29,7 @@ body {
     align-items: center;
     justify-content: center;
     background-position: 0% 0%;
-    transition: background 1s ease-in-out;
+    transition: background .5s ease-in-out;
 }
 
 .logo-main:hover {
@@ -58,18 +46,10 @@ body {
     align-items: center;
     justify-content: center;
     background-position: 0% 0%;
-    transition: background 1s ease-in-out;
+    transition: background .5s ease-in-out;
 }
 
 
-.bg-cover-opaque {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.6);
-}
 
 .logo-block {
     height: 60px;

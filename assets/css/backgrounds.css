@@ -1,0 +1,38 @@
+/*--------------------------homepage background-------------------------*/
+
+.landing-index {
+    height: 100vh;
+    background: url('../../assets/images/background1.jpg') no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-position: 53% 0%;
+}
+
+.bg-cover-opaque {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.landing-about {
+    height: 100vh;
+    background: url('../../assets/images/about-background.jpg') no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-position: 53% 0%;
+}
