@@ -30,10 +30,9 @@ body {
 .logo-main {
     position: absolute;
     top: 120px;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background: url('../../assets/images/logo-main.png') no-repeat bottom right scroll;
+    height: 90%;
+    width: 90%;
+    background: url('../../assets/images/logo-main.png') no-repeat scroll;
     -webkit-background-size: contain;
     -moz-background-size: contain;
     -o-background-size: contain;
@@ -46,12 +45,11 @@ body {
 }
 
 .logo-main:hover {
-    background: url('../../assets/images/logo-main2.png') no-repeat bottom right scroll;
+    background: url('../../assets/images/logo-main2.png') no-repeat scroll;
     position: absolute;
     top: 120px;
-    left: 0;
-    height: 100%;
-    width: 100%;
+    height: 90%;
+    width: 90%;
     -webkit-background-size: contain;
     -moz-background-size: contain;
     -o-background-size: contain;
@@ -63,9 +61,6 @@ body {
     transition: background 1s ease-in-out;
 }
 
-}
-
-}
 
 .bg-cover-opaque {
     position: absolute;
@@ -162,36 +157,56 @@ body {
         height: 120px;
 
     }
-
+    
+    
     .logo-main {
-        top: 0px;
-    }
-
-    .logo-main:hover {
-        background: url('../../assets/images/logo-main2.png') no-repeat bottom right scroll;
         top: 0;
+    }
+    
+    .logo-main:hover {
+        top: 0;
+    }
+    
+/*-----------------------------------------------------------------------------
+    .logo-main {
+        background-position: center;
+        background: url('../../assets/images/logo-main.png') no-repeat bottom right scroll;
         position: absolute;
-        left: 0;
-        height: 100%;
-        width: 100%;
+        top: 20px;
+        height: 75%;
+        width: 75%;
         -webkit-background-size: contain;
         -moz-background-size: contain;
         -o-background-size: contain;
         background-size: contain;
         display: flex;
-        align-items: center;
         justify-content: center;
-        background-position: 0% 0%;
-        transition: background 1s ease-in-out;
+        transition: background .5s ease-in-out;
     }
-}
 
-.mobile-break {
-    display: none;
-}
+    .logo-main:hover {
+        background-position: center;
+        background: url('../../assets/images/logo-main2.png') no-repeat bottom right scroll;
+        position: absolute;
+        top: 20px;
+        height: 75%;
+        width: 75%;
+        -webkit-background-size: contain;
+        -moz-background-size: contain;
+        -o-background-size: contain;
+        background-size: contain;
+        display: flex;
+        justify-content: center;
+        transition: background .5s ease-in-out;
+    }
 
-.bg-footer {
-    height: 90px;
-}
+---------------------------------------------------------------------------------*/
+    .mobile-break {
+        display: none;
+    }
+
+    .bg-footer {
+        height: 90px;
+    }
 
 }
