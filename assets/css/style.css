@@ -11,9 +11,20 @@ body {
     border-right: 3px solid #ffffff;
 }
 
+.large-heading {
+    font-size: 3em;
+}
 
+.about-us-container {
+    text-align: center;
+    padding-top: 90px;
+}
 
-
+.about-us-container img {
+    width: 35%;
+    max-width: 200px;
+    opacity: .7;
+}
 
 .logo-main {
     position: absolute;
@@ -137,17 +148,17 @@ body {
         height: 120px;
 
     }
-    
-    
+
+
     .logo-main {
         top: 0;
     }
-    
+
     .logo-main:hover {
         top: 0;
     }
-    
-/*-----------------------------------------------------------------------------
+
+    /*-----------------------------------------------------------------------------
     .logo-main {
         background-position: center;
         background: url('../../assets/images/logo-main.png') no-repeat bottom right scroll;
@@ -187,6 +198,14 @@ body {
 
     .bg-footer {
         height: 90px;
+    }
+
+    .large-heading {
+        font-size: 5em;
+    }
+
+    .about-us-container {
+        padding-top: 30px;
     }
 
 }
