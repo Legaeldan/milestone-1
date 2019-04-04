@@ -31,7 +31,6 @@ body {
     /*------------background: url('../../assets/images/metallica-p-back.png');
     background-repeat: no-repeat;
     background-position: center;------------------unsure whether to use */
-    font-size: 1.2em;
     font-family: Cinzel;
 }
 
@@ -54,8 +53,7 @@ body {
 .logo-main {
     position: absolute;
     top: 120px;
-    height: 90%;
-    width: 90%;
+    height: 20vh;
     background: url('../../assets/images/logo-main.png') no-repeat scroll;
     -webkit-background-size: contain;
     -moz-background-size: contain;
@@ -64,16 +62,15 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-position: 0% 0%;
+    background-position: center;
     transition: background .5s ease-in-out;
 }
 
 .logo-main:hover {
-    background: url('../../assets/images/logo-main2.png') no-repeat scroll;
     position: absolute;
     top: 120px;
-    height: 90%;
-    width: 90%;
+    height: 20vh;
+    background: url('../../assets/images/logo-main2.png') no-repeat scroll;
     -webkit-background-size: contain;
     -moz-background-size: contain;
     -o-background-size: contain;
@@ -81,7 +78,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-position: 0% 0%;
+    background-position: center;
     transition: background .5s ease-in-out;
 }
 
@@ -140,6 +137,22 @@ body {
 }
 
 
+@media (min-width: 576px) {
+        
+      .logo-main {
+        height: 40vh;
+          
+      }
+        .logo-main:hover {
+        height: 40vh;
+          
+      }
+      .about-the-band p {
+          font-size: 1.2em;
+      }
+}
+
+
 @media(min-width: 768px) {
     .navbar-links span {
         font-size: 30px;
@@ -174,11 +187,13 @@ body {
 
 
     .logo-main {
-        top: 0;
+        top: 50px;
+        height: 50vh;
     }
 
     .logo-main:hover {
-        top: 0;
+        top: 50px;
+        height: 50vh;
     }
 
     /*-----------------------------------------------------------------------------
@@ -231,10 +246,15 @@ body {
     .about-us-container {
         padding-top: 30px;
     }
-    
+
     .skull-image-breaker {
         margin-left: 50px;
         margin-right: 50px;
+    }
+    
+    .about-the-band p img {
+        float: right;
+        height: 200px;
     }
 
 }
