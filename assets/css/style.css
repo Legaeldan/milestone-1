@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Metal+Mania');
+@import url('https://fonts.googleapis.com/css?family=Cinzel|Metal+Mania');
 
 body {
     font-family: 'Metal Mania', sans-serif;
@@ -28,7 +28,11 @@ body {
 }
 
 .about-the-band p {
+    /*------------background: url('../../assets/images/metallica-p-back.png');
+    background-repeat: no-repeat;
+    background-position: center;------------------unsure whether to use */
     font-size: 1.2em;
+    font-family: Cinzel;
 }
 
 .about-us-container {
@@ -210,7 +214,7 @@ body {
         transition: background .5s ease-in-out;
     }
 
----------------------------------------------------------------------------------*/
+-----------------------------------------------------------Original main logo tests -unsuccessful*/
     .mobile-break {
         display: none;
     }
@@ -227,9 +231,10 @@ body {
     .about-us-container {
         padding-top: 30px;
     }
+    
     .skull-image-breaker {
         margin-left: 50px;
-    margin-right: 50px;
+        margin-right: 50px;
     }
 
 }
