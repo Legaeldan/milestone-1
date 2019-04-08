@@ -150,6 +150,12 @@ body {
     padding: 0;
     display: inline-block;
 }
+
+.sc-audio-sample{
+        float: left;
+        padding: 20px;
+        display: inline-block;
+}
 /*------------------------- white divider for testing display
 
 .divider-content-white {
