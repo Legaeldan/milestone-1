@@ -21,11 +21,12 @@
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
 .landing-about {
     background: url('../../assets/images/about-background.jpg') no-repeat bottom right fixed;
+    height: 400px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -38,6 +39,7 @@
 
 .landing-contact {
     background: url('../../assets/images/contact-background.jpg') no-repeat bottom right fixed;
+    height: 400px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -51,6 +53,7 @@
 
 .landing-music {
     background: url('../../assets/images/music-background.jpg') no-repeat bottom right fixed;
+    height: 400px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -64,6 +67,7 @@
 
 .landing-video {
     background: url('../../assets/images/video-background.jpg') no-repeat bottom right fixed;
+    height: 400px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
