@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Cinzel|Metal+Mania');
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Metal Mania', sans-serif;
     color: #ffffff;
@@ -139,6 +143,14 @@ body {
 .divider-content {
     height: 400px;
 }
+
+/*------------------------- white divider for testing display
+
+.divider-content-white {
+    background-color: #ffffff !important;
+    height: 400px;
+}
+--------------------------------*/
 
 
 @media (min-width: 576px) {
