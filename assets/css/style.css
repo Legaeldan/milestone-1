@@ -142,9 +142,14 @@ body {
 
 .divider-content {
     height: fit-content;
+    padding: 0;
 }
 
-
+.yt-video-sample{
+    float: left;
+    padding: 0;
+    display: inline-block;
+}
 /*------------------------- white divider for testing display
 
 .divider-content-white {
