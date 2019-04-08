@@ -26,7 +26,7 @@
 
 .landing-about {
     background: url('../../assets/images/about-background.jpg') no-repeat bottom right fixed;
-    height: 400px;
+    height: 300px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -39,7 +39,7 @@
 
 .landing-contact {
     background: url('../../assets/images/contact-background.jpg') no-repeat bottom right fixed;
-    height: 400px;
+    height: 100vh;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -53,7 +53,7 @@
 
 .landing-music {
     background: url('../../assets/images/music-background.jpg') no-repeat bottom right fixed;
-    height: 400px;
+    height: 300px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -67,7 +67,7 @@
 
 .landing-video {
     background: url('../../assets/images/video-background.jpg') no-repeat bottom right fixed;
-    height: 400px;
+    height: 300px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
