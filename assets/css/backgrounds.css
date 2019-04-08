@@ -1,7 +1,7 @@
 /*--------------------------homepage background-------------------------*/
 
 .landing-index {
-    height: 100vh;
+    height: 50vh;
     background: url('../../assets/images/index-background.jpg') no-repeat bottom right fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -53,7 +53,7 @@
 
 .landing-music {
     background: url('../../assets/images/music-background.jpg') no-repeat bottom right fixed;
-    height: 300px;
+    height: 500px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -77,4 +77,16 @@
     justify-content: center;
     position: relative;
     background-position: center;
+}
+
+@media (min-width: 576px) {
+    .landing-index {
+        height: 60vh;
+    }
+}
+
+@media(min-width: 768px) {
+    .landing-index {
+        height: 70vh;
+    }
 }
