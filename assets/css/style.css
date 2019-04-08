@@ -136,6 +136,10 @@ body {
     z-index: 1;
 }
 
+.index-content {
+    height: 400px;
+}
+
 
 @media (min-width: 576px) {
         
