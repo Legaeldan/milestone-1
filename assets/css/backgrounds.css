@@ -79,6 +79,20 @@
     background-position: center;
 }
 
+.landing-404 {
+    background: url('../../assets/images/404-background.gif') no-repeat bottom right fixed;
+    height: 100vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-position: center;
+}
+
 @media (min-width: 576px) {
     .landing-index {
         height: 60vh;
