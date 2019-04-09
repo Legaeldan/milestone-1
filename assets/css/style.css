@@ -170,6 +170,19 @@ body {
     display: inline-block;
 }
 
+.jumbo-styling {
+    z-index: 1 !important;
+    background-color: rgba(0, 0, 0, 0.56);
+}
+
+.jumbo-styling h1 {
+    text-align: center;
+}
+
+.jumbo-styling h5 {
+    text-align: right;
+}
+
 /*------------------------- white divider for testing display
 
 .divider-content-white {
@@ -196,6 +209,8 @@ body {
     .about-the-band p {
         font-size: 1.2em;
     }
+
+
 }
 
 
@@ -225,6 +240,8 @@ body {
     .navbar-links li:not(:last-child) span {
         border-right: 3px solid #ffffff;
     }
+
+
 
     .scroll-offset {
         top: -120px;
@@ -308,4 +325,11 @@ body {
         height: 200px;
     }
 
+}
+
+@media(min-width:992px) {
+    
+    .jumbo-styling h1 {
+        padding-right: 150px;
+    }
 }
