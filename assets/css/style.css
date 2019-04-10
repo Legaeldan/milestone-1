@@ -198,6 +198,7 @@ form label {
 .submit-button {
     display: block;
     text-align: center;
+    padding-top: 15px;
 }
 
 .btn-primary {
