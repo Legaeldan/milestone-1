@@ -53,7 +53,7 @@
 
 .landing-music {
     background: url('../../assets/images/music-background.jpg') no-repeat bottom right fixed;
-    height: 500px;
+    height: 300px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -67,7 +67,7 @@
 
 .landing-video {
     background: url('../../assets/images/video-background.jpg') no-repeat bottom right fixed;
-    height: 500px;
+    height: 300px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -97,10 +97,38 @@
     .landing-index {
         height: 60vh;
     }
+
+    .landing-about {
+        height: 400px;
+    }
+
+    .landing-video {
+        height: 400px;
+    }
+
+    .landing-music {
+        height: 400px;
+    }
+
+
 }
 
 @media(min-width: 768px) {
     .landing-index {
         height: 70vh;
     }
+
+    .landing-about {
+        height: 500px;
+    }
+
+    .landing-video {
+        height: 500px;
+    }
+
+    .landing-music {
+        height: 500px;
+    }
+
+
 }

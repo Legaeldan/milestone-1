@@ -183,6 +183,27 @@ body {
     text-align: right;
 }
 
+form label {
+    text-align: center;
+    display: block;
+}
+
+.submit-button {
+    display: block;
+    text-align: center;
+}
+
+.btn-primary {
+    background-color: #8a0b0b;
+    border-color: #8a0b0b;
+}
+
+.btn-primary:hover {
+    background-color: #730c0c;
+    border-color: #730c0c;
+}
+
+#730c0c
 /*------------------------- white divider for testing display
 
 .divider-content-white {
@@ -328,9 +349,8 @@ body {
 }
 
 @media(min-width:992px) {
-    
+
     .jumbo-styling h1 {
         padding-right: 150px;
     }
 }
-
