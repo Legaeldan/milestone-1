@@ -203,7 +203,19 @@ form label {
     border-color: #730c0c;
 }
 
-#730c0c
+.btn-primary:not(:disabled):not(.disabled):active {
+    background-color: #730c0c;
+    border-color: #730c0c;
+}
+
+.btn-primary:focus {
+    box-shadow: 0 0 0 0.2rem rgba(138,11,11,.5);
+}
+
+.btn-primary:not(:disabled):not(.disabled):active:focus {
+      box-shadow: 0 0 0 0.2rem rgba(138,11,11,.5);  
+}
+
 /*------------------------- white divider for testing display
 
 .divider-content-white {
