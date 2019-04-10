@@ -26,7 +26,6 @@ body {
 }
 
 .skull-image {
-    content: url('../../assets/images/metal-skull.png');
     width: 32%;
     max-width: 200px;
 }
@@ -46,7 +45,6 @@ body {
 
 
 .skull-image-breaker {
-    content: url('../../assets/images/metal-skull.png');
     height: 30px;
     width: 30px;
 }
