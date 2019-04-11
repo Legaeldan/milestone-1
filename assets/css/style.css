@@ -14,11 +14,8 @@ body {
 /*-----------------------------------------------------animation------------*/
 
 @keyframes example {
-    0% {
-        transform: rotate(0deg);
-    }
+
     40% {
-        transform: rotate(0deg);
         width: 80px;
         height: 80px;
         padding: 37px 0;
@@ -43,7 +40,6 @@ body {
         background-color: #ffffff;
     }
     60% {
-        transform: rotate(360deg);
         width: 80px;
         height: 80px;
         padding: 37px 0;
@@ -51,20 +47,18 @@ body {
         color: #000000;
         background-color: #ffffff;
     }
-    100% {
-        transform: rotate(360deg);
-    }
+
 }
 
-.fa-sync {
+.fa-volume-up {
     position: relative;
     background-color: red;
     animation-name: example;
     animation-duration: 6s;
     animation-delay: 2s;
     animation-iteration-count: infinite;
-
 }
+
 
 /*---------------------------------------------animation end----------------*/
 
