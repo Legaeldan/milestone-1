@@ -13,12 +13,60 @@ body {
 
 /*-----------------------------------------------------animation------------*/
 
+@keyframes example {
+    0% {
+        transform: rotate(0deg);
+    }
+    40% {
+        transform: rotate(0deg);
+        width: 80px;
+        height: 80px;
+        padding: 37px 0;
+        font-size: 50px;
+        color: #000000;
+        background-color: #ffffff;
+    }
+    45% {
+        width: 90px;
+        height: 90px;
+        padding: 42px 0;
+        font-size: 60px;
+        color: #ffffff;
+        background-color: #730c0c;
+    }
+    55% {
+        width: 80px;
+        height: 80px;
+        padding: 37px 0;
+        font-size: 50px;
+        color: #000000;
+        background-color: #ffffff;
+    }
+    60% {
+        transform: rotate(360deg);
+        width: 80px;
+        height: 80px;
+        padding: 37px 0;
+        font-size: 50px;
+        color: #000000;
+        background-color: #ffffff;
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
 
+.fa-sync {
+    position: relative;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 6s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+
+}
 
 /*---------------------------------------------animation end----------------*/
-
-
-
 
 .navbar-links li:not(:nth-child(3)):not(:nth-child(4)):not(:nth-child(6)) span {
     border-right: 3px solid #ffffff;
