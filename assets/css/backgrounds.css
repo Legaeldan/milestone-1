@@ -1,8 +1,11 @@
 /*--------------------------homepage background-------------------------*/
 
-.landing-index {
-    height: 50vh;
-    background: url('../../assets/images/index-background.jpg') no-repeat bottom right fixed;
+.landing-index,
+.landing-music,
+.landing-video,
+.landing-about,
+.landing-contact,
+.landing-404 {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -14,28 +17,15 @@
     background-position: center;
 }
 
-.bg-cover-opaque {
-    position: absolute;
-    padding: 0;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.4);
+.landing-index {
+    height: 50vh;
+    background: url('../../assets/images/index-background.jpg') no-repeat bottom right fixed;
 }
 
 .landing-music,
 .landing-video,
 .landing-about {
     height: 300px;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
 }
 
 .landing-about {
@@ -53,34 +43,23 @@
 .landing-contact {
     background: url('../../assets/images/contact-background.jpg') no-repeat bottom right fixed;
     height: 65vh;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    background-position: center;
 }
-
-
-
-
 
 .landing-404 {
     background: url('../../assets/images/404-background.gif') no-repeat bottom right fixed;
     height: 100vh;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    background-position: center;
 }
+
+.bg-cover-opaque {
+    position: absolute;
+    padding: 0;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
 
 @media (min-width: 576px) {
     .landing-index {
