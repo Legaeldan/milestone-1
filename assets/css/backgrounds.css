@@ -24,8 +24,9 @@
     background-color: rgba(0, 0, 0, 0.4);
 }
 
+.landing-music,
+.landing-video,
 .landing-about {
-    background: url('../../assets/images/about-background.jpg') no-repeat bottom right fixed;
     height: 300px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -35,6 +36,18 @@
     align-items: center;
     justify-content: center;
     position: relative;
+}
+
+.landing-about {
+    background: url('../../assets/images/about-background.jpg') no-repeat bottom right fixed;
+}
+
+.landing-music {
+    background: url('../../assets/images/music-background.jpg') no-repeat bottom right fixed;
+}
+
+.landing-video {
+    background: url('../../assets/images/video-background.jpg') no-repeat bottom right fixed;
 }
 
 .landing-contact {
@@ -51,33 +64,9 @@
     background-position: center;
 }
 
-.landing-music {
-    background: url('../../assets/images/music-background.jpg') no-repeat bottom right fixed;
-    height: 300px;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    background-position: center;
-}
 
-.landing-video {
-    background: url('../../assets/images/video-background.jpg') no-repeat bottom right fixed;
-    height: 300px;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    background-position: center;
-}
+
+
 
 .landing-404 {
     background: url('../../assets/images/404-background.gif') no-repeat bottom right fixed;
