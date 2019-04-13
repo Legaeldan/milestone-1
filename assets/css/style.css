@@ -57,6 +57,7 @@ body {
 .logo-main {
     position: absolute;
     height: 20vh;
+    width: 100%;
     background: url('../../assets/images/logo-main.png') no-repeat scroll;
     -webkit-background-size: contain;
     -moz-background-size: contain;
@@ -363,6 +364,7 @@ ul {
 
 
     .logo-main {
+
         height: 40vh;
 
     }
@@ -473,7 +475,7 @@ ul {
 
 -----------------------------------------------------------Original main logo tests -unsuccessful*/
     .mobile-break {
-        display:none;
+        display: none;
 
     }
 
