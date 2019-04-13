@@ -11,56 +11,6 @@ body {
     background-color: #000000;
 }
 
-/*-----------------------------------------------------animation------------*/
-
-@keyframes example {
-
-    40% {
-        width: 80px;
-        height: 80px;
-        padding: 37px 0;
-        font-size: 50px;
-        color: #000000;
-        background-color: #ffffff;
-    }
-    45% {
-        width: 90px;
-        height: 90px;
-        padding: 42px 0;
-        font-size: 60px;
-        color: #ffffff;
-        background-color: #730c0c;
-    }
-    55% {
-        width: 80px;
-        height: 80px;
-        padding: 37px 0;
-        font-size: 50px;
-        color: #000000;
-        background-color: #ffffff;
-    }
-    60% {
-        width: 80px;
-        height: 80px;
-        padding: 37px 0;
-        font-size: 50px;
-        color: #000000;
-        background-color: #ffffff;
-    }
-
-}
-
-.fa-volume-up {
-    position: relative;
-    background-color: red;
-    animation-name: example;
-    animation-duration: 6s;
-    animation-delay: 2s;
-    animation-iteration-count: infinite;
-}
-
-
-/*---------------------------------------------animation end----------------*/
 
 .navbar-links li:not(:nth-child(3)):not(:nth-child(4)):not(:nth-child(6)) span {
     border-right: 3px solid #ffffff;
@@ -205,13 +155,13 @@ body {
 
 .yt-video-sample {
     float: left;
-    padding: 0;
+    padding: 15px;
     display: inline-block;
 }
 
 .sc-audio-sample {
     float: left;
-    padding: 5px;
+    padding: 15px;
     display: inline-block;
 }
 
@@ -349,6 +299,60 @@ ul {
 }
 --------------------------------*/
 
+/*---------------------------404 button animation-------------------------*/
+
+@keyframes pulse {
+
+    40% {
+        width: 80px;
+        height: 80px;
+        padding: 37px 0;
+        font-size: 50px;
+        color: #000000;
+        background-color: #ffffff;
+    }
+    45% {
+        width: 90px;
+        height: 90px;
+        padding: 42px 0;
+        font-size: 60px;
+        color: #ffffff;
+        background-color: #730c0c;
+    }
+    55% {
+        width: 80px;
+        height: 80px;
+        padding: 37px 0;
+        font-size: 50px;
+        color: #000000;
+        background-color: #ffffff;
+    }
+    60% {
+        width: 80px;
+        height: 80px;
+        padding: 37px 0;
+        font-size: 50px;
+        color: #000000;
+        background-color: #ffffff;
+    }
+
+}
+
+.fa-volume-up {
+    position: relative;
+    animation-name: pulse;
+    animation-duration: 6s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
+
+.mobile-break {
+    list-style-type: none;
+}
+
+
+/*-------------------------------404 button animation end----------------*/
+
 @media (min-width: 576px) {
 
     .about-us-container {
@@ -469,7 +473,8 @@ ul {
 
 -----------------------------------------------------------Original main logo tests -unsuccessful*/
     .mobile-break {
-        display: none;
+        display:none;
+
     }
 
     .bg-footer {
