@@ -240,6 +240,22 @@
         <div class="row">
             <div class="col-sm-12 landing-contact">
                 <div class="col-12 bg-cover-opaque">&nbsp;</div>
+               <!--Experimental toast message-->
+                <div aria-live="polite" aria-atomic="true" class="d-flex justify-content-center align-items-center" style="min-height: 200px;">
+                    <div class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-delay="3000">
+                        <div class="toast-header">
+                            <img src="assets/images/favicon.png" class="rounded mr-2" alt="Metallica logo">
+                            <strong class="mr-auto">Submission Complete!</strong>
+                            <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                        </div>
+                        <div class="toast-body">
+                            Your submission has been recieved, and we'll be back to you shortly with an answer! Hold tight!
+                        </div>
+                    </div>
+                </div>
+                <!--End of experimental toast message-->
             </div>
         </div>
     </section>
@@ -248,7 +264,6 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-sm-12 social-links">
-
                     <ul class="list-inline">
                         <li class="list-inline-item">
                             <a target="_blank" rel="noopener" aria-label="Follow us on Facebook" href="https://www.facebook.com/Metallica/">
@@ -290,23 +305,6 @@
             </div>
         </div>
     </footer>
-
-<!--
-    <div aria-live="polite" aria-atomic="true" class="d-flex justify-content-center align-items-center" style="min-height: 200px;">
-        <div class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-delay="3000">
-            <div class="toast-header">
-                <img src="..." class="rounded mr-2" alt="...">
-                <strong class="mr-auto">Bootstrap</strong>
-                <small>11 mins ago</small>
-                <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
-        <span aria-hidden="true">&times;</span>
-      </button>
-            </div>
-            <div class="toast-body">
-                Hello, world! This is a toast message.
-            </div>
-        </div>
-    </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
@@ -318,8 +316,5 @@
             });
         });
     </script>
--->
-
 </body>
-
 </html>

@@ -352,6 +352,16 @@ ul {
 
 /*-------------------------------404 button animation end----------------*/
 
+.toast-header img {
+    height: 32px;
+    width: 32px;
+}
+
+.toast-body {
+font-family: Cinzel;
+}
+
+
 @media (min-width: 576px) {
 
     .about-us-container {
