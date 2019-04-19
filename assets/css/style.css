@@ -290,6 +290,10 @@ ul {
     left: 2000px;
 }
 
+.toast.show {
+    z-index: 3;
+}
+
 /*------------------------- white divider for testing display
 
 .divider-content-white {
