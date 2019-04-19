@@ -294,6 +294,10 @@ ul {
     z-index: 3;
 }
 
+.toast-body {
+    color: #000000;
+}
+
 /*------------------------- white divider for testing display
 
 .divider-content-white {
