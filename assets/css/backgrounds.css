@@ -31,6 +31,7 @@
 .landing-404 {
     background: url('../../assets/images/404-background.gif') no-repeat bottom right fixed;
     height: 100vh;
+    overflow: hidden;
 }
 
 .landing-index,
