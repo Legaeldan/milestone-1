@@ -212,23 +212,35 @@
         <div class="row">
             <a id="contact" class="scroll-offset"></a>
             <div class="col-sm-12 divider-content divider-content-contact-form">
-                <div class="contact-form col-sm-12 col-md-6 offset-md-3 col-xl-4 offset-xl-4">
+                <div class="contact-form col-sm-12 col-md-10 offset-md-1">
                     <form action="#social-banner" method="get">
-                        <div class="form-group">
-                            <label for="fullname">Full Name</label>
-                            <input type="text" class="form-control" id="fullname" placeholder="Full Name - Required" required>
+                        <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="fullname">First Name</label>
+                            <input type="text" class="form-control" id="fullname" placeholder="First Name - Required" required>
                         </div>
-                        <div class="form-group">
+                         <div class="form-group col-md-6">
+                            <label for="fullname">Last Name</label>
+                            <input type="text" class="form-control" id="fullname" placeholder="Last Name - Required" required>
+                        </div>
+                        </div>
+                        
+                        <div class="form-row">
+                        <div class="form-group col-md-6">
                             <label for="email">Email Address</label>
                             <input type="email" class="form-control" id="email" placeholder="Email Address - Required" required>
                         </div>
-                        <div class="form-group">
+                        <div class="form-group col-md-6">
                             <label for="bandname">Band Name</label>
                             <input type="text" class="form-control" id="bandname" placeholder="Band Name - *optional*">
                         </div>
-                        <div class="form-group">
+                        </div>
+                        
+                        <div class="form-row">
+                        <div class="form-group col-12">
                             <label for="query">Query</label>
                             <textarea class="form-control" id="query" rows="3" placeholder="Write us a little bit about what collaborations you'd like to work on, or what questions you might have for the band" required></textarea>
+                        </div>
                         </div>
                         <div class="submit-button">
                             <button id=submit-button type="submit" class="btn btn-primary mb-2">Submit!</button>
