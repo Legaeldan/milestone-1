@@ -161,6 +161,13 @@ body {
     background-size: contain;
 }
 
+.divider-content-contact-form {
+    background-image: url('../../assets/images/contact-form-bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
 .yt-video-sample {
     float: left;
     padding: 15px;
@@ -538,6 +545,10 @@ ul {
         height: 80px;
         padding: 37px 0;
         font-size: 50px;
+    }
+
+    .divider-content-contact-form {
+        background-size: cover;
     }
 
 }
