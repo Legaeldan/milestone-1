@@ -154,6 +154,13 @@ body {
     padding: 0;
 }
 
+.divider-content-about-us {
+    background-image: url('../../assets/images/metallica-about-bg-sm.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
 .yt-video-sample {
     float: left;
     padding: 15px;
@@ -366,7 +373,7 @@ ul {
 }
 
 .toast-body {
-font-family: Cinzel;
+    font-family: Cinzel;
 }
 
 
@@ -539,5 +546,16 @@ font-family: Cinzel;
 
     .jumbo-styling h1 {
         padding-right: 150px;
+    }
+
+    .divider-content-about-us {
+        background-image: url('../../assets/images/metallica-about-bg.jpg');
+    }
+}
+
+@media(min-width:1200px) {
+
+    .divider-content-about-us {
+        background-size: cover;
     }
 }
