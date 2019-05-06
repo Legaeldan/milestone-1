@@ -9,6 +9,15 @@ I wanted to make this site as simple to use as possible, which I why I chose the
 
 <h2>Features</h2>
 
+* Pallax Effect
+* Opacity Shift Logo
+* Scroling Encouragement (avoiding false bottom to page)
+* iFrame Embedding
+* Data Validation
+* Smooth Scrolling
+* Hidden Music (404 page)
+
+
 The main feature of this site, which the site revolves around is the [parallax effect](https://www.w3schools.com/howto/howto_css_parallax.asp). This was decided before the project started, but was only implimented halfway through the working build process. It feels like the best way to showcase the band abilities, without bouncing users to multiple pages, and keeps everything in one easy to use page.
 
 The main logo at the start of the page changes color when hovered, as the static white image just seemed a little boring alone. To enable to color shift in the main logo, I have currently employed two images overlayed, and when hovered, shifts one of the logos to become visible.
