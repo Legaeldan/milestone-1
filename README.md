@@ -71,8 +71,8 @@ The main method of deployment is GitHub pages. After discussions with my mentor,
 All deployment to GitHub have been done using Visual Studio Code, with GitHub installed locally to push to the repository.
 
 There are currently two branches posted to GitHub. 
-..*The master which incorporates all commits from the start of the project. And includes the parallax branch merge from the middle of the project.
-..*The parallax branch, which was the point of change from a multi page site, to a single scrolling site.
+* The master which incorporates all commits from the start of the project. And includes the parallax branch merge from the middle of the project.
+* The parallax branch, which was the point of change from a multi page site, to a single scrolling site.
 
 The project is essential one large branch, but has been split to allow back tracking should parallax not work out, and I'd need to revert back to the multi page layout.
 
