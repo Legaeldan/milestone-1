@@ -7,15 +7,6 @@ The site is a simple, easy to navigate site, designed specifically to cherry pic
 <h2>UX</h2>
 I wanted to make this site as simple to use as possible, which I why I chose the single page parallax design. Mainly the objective of this is to show off the important point of the band in a simple, easy to use, one page solution. The page shows music, which is the main focus for the band, then the stage presence, finally finishing off with an about section should the user be interested in the bands history. 
 
-
-
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
-
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-
-As a user type, I want to perform an action, so that I can achieve a goal.
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
-
 <h2>Features</h2>
 
 The main feature of this site, which the site revolves around is the [parallax effect](https://www.w3schools.com/howto/howto_css_parallax.asp). This was decided before the project started, but was only implimented halfway through the working build process. It feels like the best way to showcase the band abilities, without bouncing users to multiple pages, and keeps everything in one easy to use page.
@@ -36,19 +27,28 @@ The contact form is designed with a pyramid symmetry in mind, as when the boxes 
 
 As an added bonus, there is a 404 page, with custom GIF background, and a musical background. On this page, I've implimented a pulsing sound button to encourage users to click and fire the Soundcloud link hidden off screen.
 
+---
+
 <h3>Features Left to Implement</h3>
 
-A feature left to impliment is a javascript to enable to the form to complete without a reload of the page, possibly with a thank you message and redirect to the social links. I've explored this via the Bootstrap toast message, but due to the limitations of HTML and CSS, and my lack of knowledge in Javascript, this will be left as a feature to impliment once I have learned more about Javascript. This space is currently filled with an onsubmit dialogue box, with reload of the page.
+1. A feature left to impliment is a javascript to enable to the [form to complete without a reload of the page](https://www.w3schools.com/jsref/met_loc_reload.asp), possibly with a thank you message and redirect to the social links. I've explored this via the [Bootstrap Toast](https://getbootstrap.com/docs/4.3/components/toasts/) message, but due to the limitations of HTML and CSS, and my lack of knowledge in Javascript, this will be left as a feature to impliment once I have learned more about Javascript. This space is currently filled with an onsubmit dialogue box, with reload of the page.
 
-I also plan to impliment a time delayed hidden navbar. When the user pulls the screen on mobile, the navbar will appear, but when inactivity on the screen meets a certain time criteria, the navbar will disappear off screen until activity is detected again.
+2. I also plan to impliment a time delayed hidden navbar. When the user pulls the screen on mobile, the navbar will appear, but when inactivity on the screen meets a certain time criteria, the navbar will disappear off screen until activity is detected again.
 
-I would also like to change the 404 sound button in the future to allow the Soundcloud link to fire without a page reload.
+3. I would also like to change the 404 sound button in the future to allow the Soundcloud link to fire without a page reload.
 
-A final feature to possibly impliment is the Bootstrap Scrollspy to work in conjunction with the current nav bar, unfortunately the design of the navbar wouldn't work as expected, and would require a complete rework of the nav element. This will need to be revisited at a later time as it requires a little bit of Javascript to be able to impliment this plan effectively.
+4. A final feature to possibly impliment is the [Bootstrap Scrollspy](https://getbootstrap.com/docs/4.3/components/scrollspy/) to work in conjunction with the current nav bar, unfortunately the design of the navbar wouldn't work as expected, and would require a complete rework of the nav element. This will need to be revisited at a later time as it requires a little bit of Javascript to be able to impliment this plan effectively.
 
 <h2>Technologies Used</h2>
 
-The current framework used in this site is [Bootstrap](https://getbootstrap.com/), and is solely built using HTML, CSS, and Bootstrap framework.
+* [HTML](https://www.w3schools.com/html/html_intro.asp)
+* [CSS](https://www.w3schools.com/css/)
+* [Bootstrap](https://getbootstrap.com/)
+* [SoundCloud Embedding](http://www.soundcloud.com)
+* [Youtube Embedding](http://www.youtube.com) 
+
+
+The current framework used in this site is [Bootstrap](https://getbootstrap.com/), and is solely built using HTML, CSS, and [Bootstrap](https://getbootstrap.com/) framework.
 
 [Soundcloud](http://www.soundcloud.com) and [Youtube](http://www.youtube.com) were used for iframe embedding, with slight alterations to the iframe embedding code. These were used to showcase both the musical catalogue, and the stage presence of the band.
 
