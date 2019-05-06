@@ -145,6 +145,56 @@ body {
     background-position: center;
 }
 
+.skull-section-divider-red {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 250px;
+    height: 250px;
+    margin-top: -125px;
+    margin-left: -125px;
+}
+
+.skull-section-divider {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 250px;
+    height: 250px;
+    margin-top: -125px;
+    margin-left: -125px;
+}
+
+.skull-section-divider:hover {
+    opacity: 0;
+    transition: all 1s ease-in-out;
+}
+
+.logo-divider-red {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 340px;
+    height: 180px;
+    margin-top: -90px;
+    margin-left: -170px;
+}
+
+.logo-divider {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 340px;
+    height: 180px;
+    margin-top: -90px;
+    margin-left: -170px;
+}
+
+.logo-divider:hover {
+    opacity: 0;
+    transition: all 1s ease-in-out;
+}
+
 .logo-block {
     height: 60px;
 
@@ -328,6 +378,7 @@ ul {
 }
 
 .lost-link a {
+    text-decoration: none;
     padding-left: 30px;
     padding-right: 30px;
 }
@@ -652,6 +703,37 @@ ul {
         background-size: cover;
     }
 
+        
+    .skull-section-divider-red {
+        width: 500px;
+        height: 500px;
+        margin-top: -250px;
+        margin-left: -250px;
+    }
+    
+    .skull-section-divider {
+        width: 500px;
+        height: 500px;
+        margin-top: -250px;
+        margin-left: -250px;
+    }
+
+    .logo-divider {
+        width: 750px;
+        height: 400px;
+        margin-top: -200px;
+        margin-left: -375px;
+    }
+
+        .logo-divider-red {
+            width: 750px;
+            height: 400px;
+            margin-top: -200px;
+            margin-left: -375px;
+        }
+
+
+
 }
 
 @media(min-width:992px) {
@@ -663,6 +745,8 @@ ul {
     .divider-content-about-us {
         background-image: url('../../assets/images/metallica-about-bg.jpg');
     }
+
+    
 }
 
 @media(min-width:1200px) {
@@ -670,4 +754,35 @@ ul {
     .divider-content-about-us {
         background-size: cover;
     }
+
+    .skull-section-divider-red {
+        width: 600px;
+        height: 600px;
+        margin-top: -300px;
+        margin-left: -300px;
+    }
+    
+    .skull-section-divider {
+        width: 600px;
+        height: 600px;
+        margin-top: -300px;
+        margin-left: -300px;
+    }
+
+
+    .logo-divider {
+        width: 750px;
+        height: 400px;
+        margin-top: -200px;
+        margin-left: -375px;
+    }
+
+        .logo-divider-red {
+            width: 750px;
+            height: 400px;
+            margin-top: -200px;
+            margin-left: -375px;
+        }
+
+
 }
