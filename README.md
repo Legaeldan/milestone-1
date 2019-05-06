@@ -78,7 +78,7 @@ During mobile testing, several issues arose, mainly pertaining to the nav bar. T
 
 I have also tested the functionality of the main logo on mobile, and while it changes on mobile, it only changes when the user clicks and holds the item. I will be looking further into correcting this with Javascript to show the item when it is on screen, as opposed to held.
 
-All code is checked via a [HTML Validator](https://validator.w3.org/) and I'm currently aware of an warning on the page, but as it's only a warning, I have decided that it's an acceptable warning due to the layout of the page.
+All code is checked via a [HTML Validator](https://validator.w3.org/) and [CSS Validator](https://jigsaw.w3.org/css-validator/validator), and I'm currently aware of an warning in the HTML, but as it's only a warning, I have decided that it's an acceptable warning due to the layout of the page.
 
 <h2>Deployment</h2>
 The main method of deployment is [GitHub pages](https://legaeldan.github.io/milestone-1/). After discussions with my mentor, I was notified of GitHub pages, meaning I didn't need to boot up Cloud9 everytime I wished to showcase my site.
