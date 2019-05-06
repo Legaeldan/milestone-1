@@ -11,6 +11,70 @@ body {
     background-color: #000000;
 }
 
+/*--backgrounds to load first--*/
+
+.landing-index {
+    height: 50vh;
+    background: url('../../assets/images/index-background.jpg') no-repeat bottom right fixed;
+}
+
+.landing-music,
+.landing-video,
+.landing-about {
+    height: 300px;
+}
+
+.landing-about {
+    background: url('../../assets/images/about-background.jpg') no-repeat bottom right fixed;
+}
+
+.landing-music {
+    background: url('../../assets/images/music-background.jpg') no-repeat bottom right fixed;
+}
+
+.landing-video {
+    background: url('../../assets/images/video-background.jpg') no-repeat bottom right fixed;
+}
+
+.landing-contact {
+    background: url('../../assets/images/contact-background.jpg') no-repeat bottom right fixed;
+    height: 65vh;
+}
+
+.landing-404 {
+    background: url('../../assets/images/404-background-2.gif') no-repeat bottom right fixed;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.landing-index,
+.landing-music,
+.landing-video,
+.landing-about,
+.landing-contact,
+.landing-404 {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-position: center;
+}
+
+.bg-cover-opaque {
+    position: absolute;
+    padding: 0;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+/*--background loading end--*/
 
 .navbar-links li:not(:nth-child(3)):not(:nth-child(4)):not(:nth-child(6)) span {
     border-right: 3px solid #ffffff;
@@ -316,15 +380,15 @@ ul {
     text-align: center;
 }
 
-/*------------------------- white divider for testing display
+/*--white divider for testing display
 
 .divider-content-white {
     background-color: #ffffff !important;
     height: 400px;
 }
---------------------------------*/
+---*/
 
-/*---------------------------404 button animation-------------------------*/
+/*--404 button animation--*/
 
 @keyframes pulse {
 
@@ -336,6 +400,7 @@ ul {
         color: #000000;
         background-color: #ffffff;
     }
+
     45% {
         width: 90px;
         height: 90px;
@@ -344,6 +409,7 @@ ul {
         color: #ffffff;
         background-color: #730c0c;
     }
+
     55% {
         width: 80px;
         height: 80px;
@@ -352,6 +418,7 @@ ul {
         color: #000000;
         background-color: #ffffff;
     }
+
     60% {
         width: 80px;
         height: 80px;
@@ -376,7 +443,7 @@ ul {
 }
 
 
-/*-------------------------------404 button animation end----------------*/
+/*--404 button animation end--*/
 
 .toast-header img {
     height: 32px;
@@ -389,6 +456,21 @@ ul {
 
 
 @media (min-width: 576px) {
+    .landing-index {
+        height: 60vh;
+    }
+
+    .landing-about {
+        height: 400px;
+    }
+
+    .landing-video {
+        height: 400px;
+    }
+
+    .landing-music {
+        height: 400px;
+    }
 
     .about-us-container {
         padding-top: 40px;
@@ -402,10 +484,12 @@ ul {
         height: 40vh;
 
     }
+
     .logo-main:hover {
         height: 40vh;
 
     }
+
     .about-the-band p {
         font-size: 1.2em;
     }
@@ -428,8 +512,23 @@ ul {
 
 }
 
-
 @media(min-width: 768px) {
+    .landing-index {
+        height: 70vh;
+    }
+
+    .landing-about {
+        height: 600px;
+    }
+
+    .landing-video {
+        height: 600px;
+    }
+
+    .landing-music {
+        height: 600px;
+    }
+
     .navbar-links span {
         font-size: 30px;
     }
@@ -478,7 +577,7 @@ ul {
         height: 50vh;
     }
 
-    /*-----------------------------------------------------------------------------
+    /*--
     .logo-main {
         background-position: center;
         background: url('../../assets/images/logo-main.png') no-repeat bottom right scroll;
@@ -511,7 +610,7 @@ ul {
         transition: background .5s ease-in-out;
     }
 
------------------------------------------------------------Original main logo tests -unsuccessful*/
+--Original main logo tests -unsuccessful--*/
     .mobile-break {
         display: none;
 
@@ -544,6 +643,7 @@ ul {
     form label {
         font-size: 2rem;
     }
+
     .social-links li a i {
         width: 80px;
         height: 80px;
