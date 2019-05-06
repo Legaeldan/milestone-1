@@ -174,20 +174,20 @@ body {
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 340px;
-    height: 180px;
-    margin-top: -90px;
-    margin-left: -170px;
+    width: 360px;
+    height: 184px;
+    margin-top: -92px;
+    margin-left: -180px;
 }
 
 .logo-divider {
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 340px;
-    height: 180px;
-    margin-top: -90px;
-    margin-left: -170px;
+    width: 360px;
+    height: 184px;
+    margin-top: -92px;
+    margin-left: -180px;
 }
 
 .logo-divider:hover {
@@ -719,17 +719,17 @@ ul {
     }
 
     .logo-divider {
-        width: 750px;
-        height: 400px;
-        margin-top: -200px;
-        margin-left: -375px;
+        width: 720px;
+        height: 368px;
+        margin-top: -172px;
+        margin-left: -360px;
     }
 
         .logo-divider-red {
-            width: 750px;
-            height: 400px;
-            margin-top: -200px;
-            margin-left: -375px;
+            width: 720px;
+            height: 368px;
+            margin-top: -172px;
+            margin-left: -360px;
         }
 
 
@@ -768,21 +768,6 @@ ul {
         margin-top: -300px;
         margin-left: -300px;
     }
-
-
-    .logo-divider {
-        width: 750px;
-        height: 400px;
-        margin-top: -200px;
-        margin-left: -375px;
-    }
-
-        .logo-divider-red {
-            width: 750px;
-            height: 400px;
-            margin-top: -200px;
-            margin-left: -375px;
-        }
 
 
 }
