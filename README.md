@@ -69,14 +69,14 @@ During mobile testing, several issues arose, mainly pertaining to the nav bar. T
 
 I have also tested the functionality of the main logo on mobile, and while it changes on mobile, it only changes when the user clicks and holds the item. I will be looking further into correcting this with Javascript to show the item when it is on screen, as opposed to held.
 
-All code is checked via a [HTML Validator](https://validator.w3.org/) and I'm currently aware of an error on page, which unfortunately I am unable to correct at my current level.
+All code is checked via a [HTML Validator](https://validator.w3.org/) and I'm currently aware of an warning on the page, but as it's only a warning, I have decided that it's an acceptable warning due to the layout of the page.
 
 <h2>Deployment</h2>
-The main method of deployment is GitHub pages. After discussions with my mentor, I was notified of GitHub pages, meaning I didn't need to boot up Cloud9 everytime I wished to showcase my site.
+The main method of deployment is [GitHub pages](https://legaeldan.github.io/milestone-1/). After discussions with my mentor, I was notified of GitHub pages, meaning I didn't need to boot up Cloud9 everytime I wished to showcase my site.
 
-All deployment to GitHub have been done using Visual Studio Code, with GitHub installed locally to push to the repository.
+All deployment to [GitHub](https://github.com/Legaeldan/milestone-1) have been done using [Visual Studio Code](https://code.visualstudio.com/), with [Git](https://git-scm.com/downloads) installed locally to push to the repository.
 
-There are currently two branches posted to GitHub. 
+There are currently two branches posted to [GitHub](https://github.com/Legaeldan/milestone-1/branches). 
 * The master which incorporates all commits from the start of the project. And includes the parallax branch merge from the middle of the project.
 * The parallax branch, which was the point of change from a multi page site, to a single scrolling site.
 
@@ -89,7 +89,9 @@ All code is tested locally on Chrome and IE11 before committing to GitHub pages.
 Whiskey Background
 https://blackenedwhiskey.com/wp-content/uploads/2018/11/Blackened_Story_Hero_New.png?id=1631
 
-Backgrounds and images all found via Google Images. Unfortunately I did not take note of each site linked in Google Images.
+Backgrounds and images all found via Google Images with the exception of the whiskey background linked below. Unfortunately I did not take note of each site linked in Google Images.
+
+[Whiskey Background](https://blackenedwhiskey.com/wp-content/uploads/2018/11/Blackened_Story_Hero_New.png?id=1631)
 
 Exceptions to this include the contact for background, and the about us background, which are custom created from other images.
 
