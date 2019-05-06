@@ -86,9 +86,6 @@ All code is tested locally on Chrome and IE11 before committing to GitHub pages.
 
 <h2>Credits</h2>
 
-Whiskey Background
-https://blackenedwhiskey.com/wp-content/uploads/2018/11/Blackened_Story_Hero_New.png?id=1631
-
 Backgrounds and images all found via Google Images with the exception of the whiskey background linked below. Unfortunately I did not take note of each site linked in Google Images.
 
 [Whiskey Background](https://blackenedwhiskey.com/wp-content/uploads/2018/11/Blackened_Story_Hero_New.png?id=1631)
