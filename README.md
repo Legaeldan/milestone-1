@@ -5,6 +5,10 @@ The site is a simple, easy to navigate site, designed specifically to cherry pic
 </p>
 
 <h2>UX</h2>
+I wanted to make this site as simple to use as possible, which I why I chose the single page parallax design. Mainly the objective of this is to show off the important point of the band in a simple, easy to use, one page solution. The page shows music, which is the main focus for the band, then the stage presence, finally finishing off with an about section should the user be interested in the bands history. 
+
+
+
 Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
 In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
@@ -39,6 +43,8 @@ A feature left to impliment is a javascript to enable to the form to complete wi
 I also plan to impliment a time delayed hidden navbar. When the user pulls the screen on mobile, the navbar will appear, but when inactivity on the screen meets a certain time criteria, the navbar will disappear off screen until activity is detected again.
 
 I would also like to change the 404 sound button in the future to allow the Soundcloud link to fire without a page reload.
+
+A final feature to possibly impliment is the Bootstrap Scrollspy to work in conjunction with the current nav bar, unfortunately the design of the navbar wouldn't work as expected, and would require a complete rework of the nav element. This will need to be revisited at a later time as it requires a little bit of Javascript to be able to impliment this plan effectively.
 
 <h2>Technologies Used</h2>
 
