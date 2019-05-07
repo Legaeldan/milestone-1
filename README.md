@@ -26,7 +26,7 @@ I have also allowed part of the next section to be visible in the desktop site, 
 
 I've also implimented several embedded youtube and soundcloud links to showcase the band back catalogue. These are customised to the best of my ability by altering the links which isn't a default feature of the iframe taken form the sites.
 
-The form at the bottom of the page, while it does have data validation, doesn't work entirely the way as intended due to the limitations of CSS and HTML, but this is outlined in the "Features left to Impliment" section below. Currently this addition feature is implimented with 
+The form at the bottom of the page, while it does have data validation, doesn't work entirely the way as intended due to the limitations of [CSS](https://www.w3schools.com/css/) and [HTML](https://www.w3schools.com/html/html_intro.asp), but this is outlined in the "Features left to Impliment" section below. Currently this addition feature is implimented with 
 
 Smooth scrolling is also a big feature for this site, as it works in conjunction with the anchor tags placed at the start of each section (with offsets to allow for the static navbar), and allows for a smooth transition into each section. 
 
@@ -40,7 +40,7 @@ As an added bonus, there is a 404 page, with custom GIF background, and a musica
 
 <h3>Features Left to Implement</h3>
 
-1. A feature left to impliment is a javascript to enable to the [form to complete without a reload of the page](https://www.w3schools.com/jsref/met_loc_reload.asp), possibly with a thank you message and redirect to the social links. I've explored this via the [Bootstrap Toast](https://getbootstrap.com/docs/4.3/components/toasts/) message, but due to the limitations of HTML and CSS, and my lack of knowledge in Javascript, this will be left as a feature to impliment once I have learned more about Javascript. This space is currently filled with an onsubmit dialogue box, with reload of the page.
+1. A feature left to impliment is a javascript to enable to the [form to complete without a reload of the page](https://www.w3schools.com/jsref/met_loc_reload.asp), possibly with a thank you message and redirect to the social links. I've explored this via the [Bootstrap Toast](https://getbootstrap.com/docs/4.3/components/toasts/) message, but due to the limitations of [HTML](https://www.w3schools.com/html/html_intro.asp) and [CSS](https://www.w3schools.com/css/), and my lack of knowledge in Javascript, this will be left as a feature to impliment once I have learned more about Javascript. This space is currently filled with an onsubmit dialogue box, with reload of the page.
 
 2. I also plan to impliment a time delayed hidden navbar. When the user pulls the screen on mobile, the navbar will appear, but when inactivity on the screen meets a certain time criteria, the navbar will disappear off screen until activity is detected again.
 
@@ -53,12 +53,14 @@ As an added bonus, there is a 404 page, with custom GIF background, and a musica
 * [HTML](https://www.w3schools.com/html/html_intro.asp)
 * [CSS](https://www.w3schools.com/css/)
 * [Bootstrap](https://getbootstrap.com/)
+* [Popper](https://popper.js.org/)
+* [jQuery](https://jquery.com/)
 * [SoundCloud Embedding](http://www.soundcloud.com)
 * [Youtube Embedding](http://www.youtube.com) 
 * [Google Fonts](https://getbootstrap.com/)
 * [Font Awesome](https://getbootstrap.com/)
 
-The current framework used in this site is [Bootstrap](https://getbootstrap.com/), and is solely built using HTML, CSS, and [Bootstrap](https://getbootstrap.com/) framework.
+The current framework used in this site is [Bootstrap](https://getbootstrap.com/), and is solely built using HTML, [CSS](https://www.w3schools.com/css/), and [Bootstrap](https://getbootstrap.com/) framework.
 
 [Soundcloud](http://www.soundcloud.com) and [Youtube](http://www.youtube.com) were used for iframe embedding, with slight alterations to the iframe embedding code. These were used to showcase both the musical catalogue, and the stage presence of the band.
 
@@ -79,9 +81,9 @@ During testing, due to limitations of browsers, the 404 page does not allow the 
 
 During mobile testing, several issues arose, mainly pertaining to the nav bar. The way the nav items are set up, unfortunately I was unable to scale them correctly, so the code is now corrected to remove the 3rd, 4th and 6th borders on scaling, and add them correctly back after scaling back to desktop.
 
-I have also tested the functionality of the main logo on mobile, and while it changes on mobile, it only changes when the user clicks and holds the item. I will be looking further into correcting this with Javascript to show the item when it is on screen, as opposed to held.
+I have also tested the functionality of the main logo on mobile, as well as all the section dividers and final logo, and while it changes on mobile, it only changes when the user clicks and holds the item. I will be looking further into correcting this with Javascript to show the item when it is on screen, as opposed to held.
 
-All code is checked via a [HTML Validator](https://validator.w3.org/) and [CSS Validator](https://jigsaw.w3.org/css-validator/validator), and I'm currently aware of an warning in the HTML, but as it's only a warning, I have decided that it's an acceptable warning due to the layout of the page.
+All code is checked via a [HTML Validator](https://validator.w3.org/) and [CSS Validator](https://jigsaw.w3.org/css-validator/validator), and I'm currently aware of an warning in the [HTML](https://www.w3schools.com/html/html_intro.asp), but as it's only a warning, I have decided that it's an acceptable warning due to the layout of the page.
 
 <h2>Deployment</h2>
 
@@ -89,7 +91,7 @@ This project was developed using the [Cloud9 IDE](https://c9.io) initially befor
 
 The main method of deployment, [GitHub Pages](https://legaeldan.github.io/milestone-1/index.html), was chosen after a discussions with my mentor, and I was notified of GitHub pages, meaning I didn't need to boot up Cloud9 everytime I wished to showcase my site.
 
-<h3>Deployment to GitHub Pages<h3>
+<h3>Deployment to GitHub Pages</h3>
 
 To deploy this page to GitHub Pages from its [GitHub repository](https://github.com/Legaeldan/milestone-1), the following steps were taken: 
 1. Log into GitHub. 
@@ -141,3 +143,5 @@ All music links are from [Soundcloud](http://www.soundcloud.com) and all videos 
 <h3>Acknowledgements</h3>
 
 I received inspiration and assistance on this project from Simen Daehlin (Eventyret), who assisted above and beyond to help improve the site, especially to the point that I definately intend to return to this site once I have Javascript under my belt. He's certainly helped show me what features will be available to me later on down the line.
+
+![Rock On](https://github.com/Legaeldan/milestone-1/blob/master/assets/images/Rock-On.png "Rock On")
