@@ -13,15 +13,15 @@ body {
 
 /*--backgrounds to load first--*/
 
-.landing-index {
-    height: 300px;
-    background: url('../../assets/images/index-background.jpg') no-repeat bottom right fixed;
-}
-
 .landing-music,
 .landing-video,
 .landing-about {
     height: 300px;
+}
+
+.landing-index {
+    height: 400px;
+    background: url('../../assets/images/index-background.jpg') no-repeat bottom right fixed;
 }
 
 .landing-about {
