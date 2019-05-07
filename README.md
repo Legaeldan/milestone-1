@@ -55,7 +55,8 @@ As an added bonus, there is a 404 page, with custom GIF background, and a musica
 * [Bootstrap](https://getbootstrap.com/)
 * [SoundCloud Embedding](http://www.soundcloud.com)
 * [Youtube Embedding](http://www.youtube.com) 
-
+* [Google Fonts](https://getbootstrap.com/)
+* [Font Awesome](https://getbootstrap.com/)
 
 The current framework used in this site is [Bootstrap](https://getbootstrap.com/), and is solely built using HTML, CSS, and [Bootstrap](https://getbootstrap.com/) framework.
 
@@ -70,7 +71,9 @@ Unfortunately not all of the features work fully on IE11. Currently the smooth s
 
 I am currently aware that the main logo does not align correctly, but after much investigation, I am unable to correct this as of yet without affecting the layout on Chrome. Also the parallax effect which the site is built around does not work on IE11, and currently only stutters the images when scrolling, instead of holding the images static.
 
-Testing via Chrome went more smoothly. Mainly to point, when running an audit using the inbuilt developer tools, scored 100 across the board once deployment was completed.
+Testing via Chrome went more smoothly. Mainly to point, when running an audit using the inbuilt developer tools, scored 100 across the board once deployment was completed as shown below.
+
+![Audit Results](https://github.com/Legaeldan/milestone-1/blob/master/assets/images/audit-results.PNG "Audit Results")
 
 During testing, due to limitations of browsers, the 404 page does not allow the Soundcloud links to fire on load, and I've had to impliment a reload button, as the media will fire on a reload as opposed to a redirect from another page. Unfortunately I was unable to change the z-index effectively, and resorted to moving the image far enough off screen that it will not be seen despite screen width, and set the page overflow to hidden so that the user cannot scroll to it, or even know it is there.
 
@@ -81,7 +84,8 @@ I have also tested the functionality of the main logo on mobile, and while it ch
 All code is checked via a [HTML Validator](https://validator.w3.org/) and [CSS Validator](https://jigsaw.w3.org/css-validator/validator), and I'm currently aware of an warning in the HTML, but as it's only a warning, I have decided that it's an acceptable warning due to the layout of the page.
 
 <h2>Deployment</h2>
-The main method of deployment is [GitHub pages](https://legaeldan.github.io/milestone-1/). After discussions with my mentor, I was notified of GitHub pages, meaning I didn't need to boot up Cloud9 everytime I wished to showcase my site.
+
+The main method of deployment is [GitHub Pages](https://legaeldan.github.io/milestone-1/index.html) . After discussions with my mentor, I was notified of GitHub pages, meaning I didn't need to boot up Cloud9 everytime I wished to showcase my site.
 
 All deployment to [GitHub](https://github.com/Legaeldan/milestone-1) have been done using [Visual Studio Code](https://code.visualstudio.com/), with [Git](https://git-scm.com/downloads) installed locally to push to the repository.
 
@@ -91,7 +95,7 @@ There are currently two branches posted to [GitHub](https://github.com/Legaeldan
 
 The project is essential one large branch, but has been split to allow back tracking should parallax not work out, and I'd need to revert back to the multi page layout.
 
-All code is tested locally on Chrome and IE11 before committing to GitHub pages. But as I've discovered, GH Pages interprets the site differently, and required tweaking via developer tools, and applying those changes back to the local copy, and resubmitting to GitHub.
+
 
 <h2>Credits</h2>
 
@@ -107,4 +111,4 @@ All music links are from [Soundcloud](http://www.soundcloud.com) and all videos 
 
 <h3>Acknowledgements</h3>
 
-I received inspiration and assistance on this project from Simon Daehly (Eventyret), who assisted above and beyond to help improve the site, especially to the point that I definately intend to return to this site once I have Javascript under my belt. He's certainly helped show me what features will be available to me later on down the line.
+I received inspiration and assistance on this project from Simen Daehlin (Eventyret), who assisted above and beyond to help improve the site, especially to the point that I definately intend to return to this site once I have Javascript under my belt. He's certainly helped show me what features will be available to me later on down the line.
