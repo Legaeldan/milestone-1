@@ -100,12 +100,25 @@ To deploy this page to GitHub Pages from its [GitHub repository](https://github.
 6. On selecting Master Branch the page is automatically refreshed, the website is now deployed. 
 7. Scroll back down to the **GitHub Pages** section to retrieve the link to the deployed website.
 
+<h3>Running this project locally</h3>
+
+To clone this project from GitHub:
+1. Follow this link to the [GitHub repository](https://github.com/Legaeldan/milestone-1).
+2. Under the repository name, click the green "Clone or download" button.
+3. In the Clone with HTTPs section, copy the clone URL for the repository. 
+4. In your local editor program, open Git Bash.
+5. Change the current working directory to the location where you want the cloned directory to be made.
+6. Type ```git clone```
+, and then paste the URL you copied in Step 3.
+
+```git clone https://github.com/USERNAME/REPOSITORY```
+
+7. Press Enter. Your local clone will be created.
+
+For more help on cloning a repository on Github, please click [here](https://help.github.com/en/articles/cloning-a-repository).
 
 
-
-
-
-There are currently two branches posted to [GitHub](https://github.com/Legaeldan/milestone-1/branches). 
+There are currently two [branches](https://github.com/Legaeldan/milestone-1/branches) posted to [GitHub repository](https://github.com/Legaeldan/milestone-1). 
 * The master which incorporates all commits from the start of the project. And includes the parallax branch merge from the middle of the project.
 * The parallax branch, which was the point of change from a multi page site, to a single scrolling site.
 
