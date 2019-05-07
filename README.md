@@ -44,7 +44,7 @@ As an added bonus, there is a 404 page, with custom GIF background, and a musica
 
 2. I also plan to impliment a time delayed [hidden navbar](https://stackoverflow.com/questions/23315031/how-to-create-a-hidden-navbar-with-bootstrap-that-shows-after-you-scroll). When the user pulls the screen on mobile, the navbar will appear, but when inactivity on the screen meets a certain time criteria, the navbar will disappear off screen until activity is detected again.
 
-3. I would also like to change the 404 sound button in the future to allow the [Soundcloud](http://www.soundcloud.com) link to fire without a [page reload](https://stackoverflow.com/questions/18490026/refresh-reload-the-content-in-div-using-jquery-ajax).
+3. I would also like to change the 404 sound button in the future to allow the [Soundcloud](http://www.soundcloud.com) link to fire without a [page reload](https://stackoverflow.com/questions/18490026/refresh-reload-the-content-in-div-using-jquery-ajax), and to allow muting of the track should the user desire.
 
 4. A final feature to possibly impliment is the [Bootstrap Scrollspy](https://getbootstrap.com/docs/4.3/components/scrollspy/) to work in conjunction with the current nav bar, unfortunately the design of the navbar wouldn't work as expected, and would require a complete rework of the nav element. This will need to be revisited at a later time as it requires a little bit of [JavaScript](https://www.javascript.com/) to be able to impliment this plan effectively.
 
