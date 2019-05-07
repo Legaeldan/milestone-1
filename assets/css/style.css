@@ -14,7 +14,7 @@ body {
 /*--backgrounds to load first--*/
 
 .landing-index {
-    height: 50vh;
+    height: 300px;
     background: url('../../assets/images/index-background.jpg') no-repeat bottom right fixed;
 }
 
@@ -117,32 +117,29 @@ body {
 
 .logo-main {
     position: absolute;
-    height: 20vh;
-    width: 100%;
-    background: url('../../assets/images/logo-main.png') no-repeat scroll;
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain;
-    background-size: contain;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-position: center;
-    transition: background .5s ease-in-out;
+    top: 50%;
+    left: 50%;
+    width: 350px;
+    height: 170px;
+    margin-top: -85px;
+    margin-left: -175px;
+
+}
+
+.logo-main-red {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 350px;
+    height: 170px;
+    margin-top: -85px;
+    margin-left: -175px;
+
 }
 
 .logo-main:hover {
-    position: absolute;
-    height: 20vh;
-    background: url('../../assets/images/logo-main2.png') no-repeat scroll;
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain;
-    background-size: contain;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-position: center;
+    opacity: 0;
+    transition: all .5s ease-in-out;
 }
 
 .skull-section-divider-red {
@@ -497,7 +494,7 @@ ul {
 
 @media (min-width: 576px) {
     .landing-index {
-        height: 60vh;
+        height: 500px;
     }
 
     .landing-about {
@@ -515,19 +512,6 @@ ul {
     .about-us-container {
         padding-top: 40px;
         padding-bottom: 40px;
-    }
-
-
-
-    .logo-main {
-
-        height: 40vh;
-
-    }
-
-    .logo-main:hover {
-        height: 40vh;
-
     }
 
     .about-the-band p {
@@ -554,7 +538,7 @@ ul {
 
 @media(min-width: 768px) {
     .landing-index {
-        height: 70vh;
+        height: 700px;
     }
 
     .landing-about {
@@ -608,14 +592,19 @@ ul {
 
 
     .logo-main {
-        top: 50px;
-        height: 50vh;
+        width: 748px;
+        height: 364px;
+        margin-top: -182px;
+        margin-left: -374px;
     }
 
-    .logo-main:hover {
-        top: 50px;
-        height: 50vh;
+    .logo-main-red {
+        width: 748px;
+        height: 364px;
+        margin-top: -182px;
+        margin-left: -374px;
     }
+
 
     .mobile-break {
         display: none;
@@ -661,14 +650,14 @@ ul {
         background-size: cover;
     }
 
-        
+
     .skull-section-divider-red {
         width: 500px;
         height: 500px;
         margin-top: -250px;
         margin-left: -250px;
     }
-    
+
     .skull-section-divider {
         width: 500px;
         height: 500px;
@@ -683,12 +672,12 @@ ul {
         margin-left: -360px;
     }
 
-        .logo-divider-red {
-            width: 720px;
-            height: 368px;
-            margin-top: -172px;
-            margin-left: -360px;
-        }
+    .logo-divider-red {
+        width: 720px;
+        height: 368px;
+        margin-top: -172px;
+        margin-left: -360px;
+    }
 
 
 
@@ -704,7 +693,20 @@ ul {
         background-image: url('../../assets/images/metallica-about-bg.jpg');
     }
 
-    
+    .logo-main {
+        width: 950px;
+        height: 462px;
+        margin-top: -231px;
+        margin-left: -475px;
+    }
+
+    .logo-main-red {
+        width: 950px;
+        height: 462px;
+        margin-top: -231px;
+        margin-left: -475px;
+    }
+
 }
 
 @media(min-width:1200px) {
@@ -719,7 +721,7 @@ ul {
         margin-top: -300px;
         margin-left: -300px;
     }
-    
+
     .skull-section-divider {
         width: 600px;
         height: 600px;
@@ -727,5 +729,17 @@ ul {
         margin-left: -300px;
     }
 
+    .logo-main {
+        width: 1094px;
+        height: 532px;
+        margin-top: -266px;
+        margin-left: -547px;
+    }
 
+    .logo-main-red {
+        width: 1094px;
+        height: 532px;
+        margin-top: -266px;
+        margin-left: -547px;
+    }
 }
