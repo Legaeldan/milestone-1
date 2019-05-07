@@ -89,7 +89,6 @@ This project was developed using the [Cloud9 IDE](https://c9.io) initially befor
 
 The main method of deployment, [GitHub Pages](https://legaeldan.github.io/milestone-1/index.html), was chosen after a discussions with my mentor, and I was notified of GitHub pages, meaning I didn't need to boot up Cloud9 everytime I wished to showcase my site.
 
-All deployment to [GitHub](https://github.com/Legaeldan/milestone-1) have been done using [Visual Studio Code](https://code.visualstudio.com/), with [Git](https://git-scm.com/downloads) installed locally to push to the repository.
 
 There are currently two branches posted to [GitHub](https://github.com/Legaeldan/milestone-1/branches). 
 * The master which incorporates all commits from the start of the project. And includes the parallax branch merge from the middle of the project.
