@@ -428,14 +428,6 @@ ul {
     text-align: center;
 }
 
-/*--white divider for testing display
-
-.divider-content-white {
-    background-color: #ffffff !important;
-    height: 400px;
-}
----*/
-
 /*--404 button animation--*/
 
 @keyframes pulse {
@@ -625,40 +617,6 @@ ul {
         height: 50vh;
     }
 
-    /*--
-    .logo-main {
-        background-position: center;
-        background: url('../../assets/images/logo-main.png') no-repeat bottom right scroll;
-        position: absolute;
-        top: 20px;
-        height: 75%;
-        width: 75%;
-        -webkit-background-size: contain;
-        -moz-background-size: contain;
-        -o-background-size: contain;
-        background-size: contain;
-        display: flex;
-        justify-content: center;
-        transition: background .5s ease-in-out;
-    }
-
-    .logo-main:hover {
-        background-position: center;
-        background: url('../../assets/images/logo-main2.png') no-repeat bottom right scroll;
-        position: absolute;
-        top: 20px;
-        height: 75%;
-        width: 75%;
-        -webkit-background-size: contain;
-        -moz-background-size: contain;
-        -o-background-size: contain;
-        background-size: contain;
-        display: flex;
-        justify-content: center;
-        transition: background .5s ease-in-out;
-    }
-
---Original main logo tests -unsuccessful--*/
     .mobile-break {
         display: none;
 
