@@ -167,7 +167,7 @@ body {
 
 .skull-section-divider:hover {
     opacity: 0;
-    transition: all 1s ease-in-out;
+    transition: all .5s ease-in-out;
 }
 
 .logo-divider-red {
@@ -192,7 +192,7 @@ body {
 
 .logo-divider:hover {
     opacity: 0;
-    transition: all 1s ease-in-out;
+    transition: all .5s ease-in-out;
 }
 
 .logo-block {
