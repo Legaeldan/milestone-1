@@ -145,4 +145,4 @@ All music links are from [Soundcloud](http://www.soundcloud.com) and all videos 
 
 I received inspiration and assistance on this project from Simen Daehlin (Eventyret), who assisted above and beyond to help improve the site, especially to the point that I definately intend to return to this site once I have [JavaScript](https://www.javascript.com/) under my belt. He's certainly helped show me what features will be available to me later on down the line.
 
-![Rock On](https://github.com/Legaeldan/milestone-1/blob/master/assets/images/Rock-On.png "Rock On")
+<div style="text-align:center"><img src="https://github.com/Legaeldan/milestone-1/blob/master/assets/images/Rock-On.png" /></div>
