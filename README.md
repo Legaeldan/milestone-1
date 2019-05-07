@@ -89,6 +89,21 @@ This project was developed using the [Cloud9 IDE](https://c9.io) initially befor
 
 The main method of deployment, [GitHub Pages](https://legaeldan.github.io/milestone-1/index.html), was chosen after a discussions with my mentor, and I was notified of GitHub pages, meaning I didn't need to boot up Cloud9 everytime I wished to showcase my site.
 
+<h3>Deployment to GitHub Pages<h3>
+
+To deploy this page to GitHub Pages from its [GitHub repository](https://github.com/Legaeldan/milestone-1), the following steps were taken: 
+1. Log into GitHub. 
+2. From the list of repositories on the screen, select **Legaeldan/milestone-1**.
+3. From the menu items near the top of the page, select **Settings**.
+4. Scroll down to the **GitHub Pages** section.
+5. Under **Source** click the drop-down menu labelled **None** and select **Master Branch**
+6. On selecting Master Branch the page is automatically refreshed, the website is now deployed. 
+7. Scroll back down to the **GitHub Pages** section to retrieve the link to the deployed website.
+
+
+
+
+
 
 There are currently two branches posted to [GitHub](https://github.com/Legaeldan/milestone-1/branches). 
 * The master which incorporates all commits from the start of the project. And includes the parallax branch merge from the middle of the project.
