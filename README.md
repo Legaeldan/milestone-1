@@ -74,7 +74,7 @@ Unfortunately not all of the features work fully on IE11. Currently the smooth s
 
 I am currently aware that the main logo does not align correctly, but after much investigation, I am unable to correct this as of yet without affecting the layout on Chrome. Also the parallax effect which the site is built around does not work on IE11, and currently only stutters the images when scrolling, instead of holding the images static.
 
-Testing via Chrome went more smoothly. Mainly to point, when running an audit using the inbuilt developer tools, scored 100 across the board once deployment was completed as shown below.
+Testing via Chrome went more smoothly. Mainly to point, when running an audit using the inbuilt developer tools, scored 100 with both performance and accessibility, with a 93 on Best Practices, which is due to the backgrounds changing aspect ratio when scaling the screen width/size.
 
 ![Audit Results](https://github.com/Legaeldan/milestone-1/blob/master/assets/images/audit-results.PNG "Audit Results")
 
