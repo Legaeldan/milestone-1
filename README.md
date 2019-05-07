@@ -24,7 +24,7 @@ The main logo at the start of the page changes color when hovered, as the static
 
 I have also allowed part of the next section to be visible in the desktop site, to encourage the user to start scrolling as there is more content below.
 
-I've also implimented several embedded youtube and soundcloud links to showcase the band back catalogue. These are customised to the best of my ability by altering the links which isn't a default feature of the iframe taken form the sites.
+I've also implimented several embedded [Youtube](http://www.youtube.com) and [Soundcloud](http://www.soundcloud.com) links to showcase the band back catalogue. These are customised to the best of my ability by altering the links which isn't a default feature of the iframe taken form the sites.
 
 The form at the bottom of the page, while it does have data validation, doesn't work entirely the way as intended due to the limitations of [CSS](https://www.w3schools.com/css/) and [HTML](https://www.w3schools.com/html/html_intro.asp), but this is outlined in the "Features left to Impliment" section below. Currently this addition feature is implimented with 
 
@@ -34,19 +34,19 @@ The main navbar is a great feature because it moves you to each section on the p
 
 The contact form is designed with a pyramid symmetry in mind, as when the boxes are extended to the size of the query box, they just seem too long for the page. So the contact form now has relevant width, without the boxes being too wide. This was also decided to match the rest of the page content, as most of the content on desktop is 10 columns wide with an offset of 1, and initially the contact form was 6 columns wide with an offset of 3, meaning it felt out of place in the flow of the page.
 
-As an added bonus, there is a 404 page, with custom GIF background, and a musical background. On this page, I've implimented a pulsing sound button to encourage users to click and fire the Soundcloud link hidden off screen.
+As an added bonus, there is a 404 page, with custom GIF background, and a musical background. On this page, I've implimented a pulsing sound button to encourage users to click and fire the [Soundcloud](http://www.soundcloud.com) link hidden off screen.
 
 ---
 
 <h3>Features Left to Implement</h3>
 
-1. A feature left to impliment is a javascript to enable to the [form to complete without a reload of the page](https://www.w3schools.com/jsref/met_loc_reload.asp), possibly with a thank you message and redirect to the social links. I've explored this via the [Bootstrap Toast](https://getbootstrap.com/docs/4.3/components/toasts/) message, but due to the limitations of [HTML](https://www.w3schools.com/html/html_intro.asp) and [CSS](https://www.w3schools.com/css/), and my lack of knowledge in Javascript, this will be left as a feature to impliment once I have learned more about Javascript. This space is currently filled with an onsubmit dialogue box, with reload of the page.
+1. A feature left to impliment is a [JavaScript](https://www.javascript.com/) to enable to the [form to complete without a reload of the page](https://www.w3schools.com/jsref/met_loc_reload.asp), possibly with a thank you message and redirect to the social links. I've explored this via the [Bootstrap Toast](https://getbootstrap.com/docs/4.3/components/toasts/) message, but due to the limitations of [HTML](https://www.w3schools.com/html/html_intro.asp) and [CSS](https://www.w3schools.com/css/), and my lack of knowledge in Javascript, this will be left as a feature to impliment once I have learned more about [JavaScript](https://www.javascript.com/). This space is currently filled with an onsubmit dialogue box, with reload of the page.
 
-2. I also plan to impliment a time delayed hidden navbar. When the user pulls the screen on mobile, the navbar will appear, but when inactivity on the screen meets a certain time criteria, the navbar will disappear off screen until activity is detected again.
+2. I also plan to impliment a time delayed [hidden navbar](https://stackoverflow.com/questions/23315031/how-to-create-a-hidden-navbar-with-bootstrap-that-shows-after-you-scroll). When the user pulls the screen on mobile, the navbar will appear, but when inactivity on the screen meets a certain time criteria, the navbar will disappear off screen until activity is detected again.
 
-3. I would also like to change the 404 sound button in the future to allow the Soundcloud link to fire without a page reload.
+3. I would also like to change the 404 sound button in the future to allow the [Soundcloud](http://www.soundcloud.com) link to fire without a [page reload](https://stackoverflow.com/questions/18490026/refresh-reload-the-content-in-div-using-jquery-ajax).
 
-4. A final feature to possibly impliment is the [Bootstrap Scrollspy](https://getbootstrap.com/docs/4.3/components/scrollspy/) to work in conjunction with the current nav bar, unfortunately the design of the navbar wouldn't work as expected, and would require a complete rework of the nav element. This will need to be revisited at a later time as it requires a little bit of Javascript to be able to impliment this plan effectively.
+4. A final feature to possibly impliment is the [Bootstrap Scrollspy](https://getbootstrap.com/docs/4.3/components/scrollspy/) to work in conjunction with the current nav bar, unfortunately the design of the navbar wouldn't work as expected, and would require a complete rework of the nav element. This will need to be revisited at a later time as it requires a little bit of [JavaScript](https://www.javascript.com/) to be able to impliment this plan effectively.
 
 <h2>Technologies Used</h2>
 
@@ -55,6 +55,7 @@ As an added bonus, there is a 404 page, with custom GIF background, and a musica
 * [Bootstrap](https://getbootstrap.com/)
 * [Popper](https://popper.js.org/)
 * [jQuery](https://jquery.com/)
+* [JavaScript](https://www.javascript.com/)
 * [SoundCloud Embedding](http://www.soundcloud.com)
 * [Youtube Embedding](http://www.youtube.com) 
 * [Google Fonts](https://getbootstrap.com/)
@@ -69,7 +70,7 @@ In this section, you should mention all of the languages, frameworks, libraries,
 <h2>Testing</h2>
 This site has been tested both on Chrome and IE11. 
 
-Unfortunately not all of the features work fully on IE11. Currently the smooth scrolling option is not fully functioning on IE, and will require movement possibly to JavaScript instead of the inbuilt smooth scroll feature.
+Unfortunately not all of the features work fully on IE11. Currently the smooth scrolling option is not fully functioning on IE, and will require movement possibly to [JavaScript](https://www.javascript.com/) instead of the inbuilt smooth scroll feature.
 
 I am currently aware that the main logo does not align correctly, but after much investigation, I am unable to correct this as of yet without affecting the layout on Chrome. Also the parallax effect which the site is built around does not work on IE11, and currently only stutters the images when scrolling, instead of holding the images static.
 
@@ -77,19 +78,19 @@ Testing via Chrome went more smoothly. Mainly to point, when running an audit us
 
 ![Audit Results](https://github.com/Legaeldan/milestone-1/blob/master/assets/images/audit-results.PNG "Audit Results")
 
-During testing, due to limitations of browsers, the 404 page does not allow the Soundcloud links to fire on load, and I've had to impliment a reload button, as the media will fire on a reload as opposed to a redirect from another page. Unfortunately I was unable to change the z-index effectively, and resorted to moving the image far enough off screen that it will not be seen despite screen width, and set the page overflow to hidden so that the user cannot scroll to it, or even know it is there.
+During testing, due to limitations of browsers, the 404 page does not allow the [Soundcloud](http://www.soundcloud.com) links to fire on load, and I've had to impliment a reload button, as the media will fire on a reload as opposed to a redirect from another page. Unfortunately I was unable to change the z-index effectively, and resorted to moving the image far enough off screen that it will not be seen despite screen width, and set the page overflow to hidden so that the user cannot scroll to it, or even know it is there.
 
 During mobile testing, several issues arose, mainly pertaining to the nav bar. The way the nav items are set up, unfortunately I was unable to scale them correctly, so the code is now corrected to remove the 3rd, 4th and 6th borders on scaling, and add them correctly back after scaling back to desktop.
 
-I have also tested the functionality of the main logo on mobile, as well as all the section dividers and final logo, and while it changes on mobile, it only changes when the user clicks and holds the item. I will be looking further into correcting this with Javascript to show the item when it is on screen, as opposed to held.
+I have also tested the functionality of the main logo on mobile, as well as all the section dividers and final logo, and while it changes on mobile, it only changes when the user clicks and holds the item. I will be looking further into correcting this with [JavaScript](https://www.javascript.com/) to show the item when it is on screen, as opposed to held.
 
 All code is checked via a [HTML Validator](https://validator.w3.org/) and [CSS Validator](https://jigsaw.w3.org/css-validator/validator), and I'm currently aware of an warning in the [HTML](https://www.w3schools.com/html/html_intro.asp), but as it's only a warning, I have decided that it's an acceptable warning due to the layout of the page.
 
 <h2>Deployment</h2>
 
-This project was developed using the [Cloud9 IDE](https://c9.io) initially before moving locally to [Visual Studio Code](https://code.visualstudio.com/) and [Git](https://git-scm.com/downloads), committed to a local [Git](https://git-scm.com/downloads) repository, and pushed to [GitHub](https://github.com/Legaeldan/milestone-1) using a locally installed version of [Git](https://git-scm.com/downloads) via command prompt.
+This project was developed using the [Cloud9 IDE](https://c9.io/login) initially before moving locally to [Visual Studio Code](https://code.visualstudio.com/) and [Git](https://git-scm.com/downloads), committed to a local [Git](https://git-scm.com/downloads) repository, and pushed to [GitHub](https://github.com/Legaeldan/milestone-1) using a locally installed version of [Git](https://git-scm.com/downloads) via command prompt.
 
-The main method of deployment, [GitHub Pages](https://legaeldan.github.io/milestone-1/index.html), was chosen after a discussions with my mentor, and I was notified of GitHub pages, meaning I didn't need to boot up Cloud9 everytime I wished to showcase my site.
+The main method of deployment, [GitHub Pages](https://legaeldan.github.io/milestone-1/index.html), was chosen after a discussions with my mentor, and I was notified of GitHub pages, meaning I didn't need to boot up [Cloud9](https://c9.io/login) everytime I wished to showcase my site.
 
 <h3>Deployment to GitHub Pages</h3>
 
@@ -142,6 +143,6 @@ All music links are from [Soundcloud](http://www.soundcloud.com) and all videos 
 
 <h3>Acknowledgements</h3>
 
-I received inspiration and assistance on this project from Simen Daehlin (Eventyret), who assisted above and beyond to help improve the site, especially to the point that I definately intend to return to this site once I have Javascript under my belt. He's certainly helped show me what features will be available to me later on down the line.
+I received inspiration and assistance on this project from Simen Daehlin (Eventyret), who assisted above and beyond to help improve the site, especially to the point that I definately intend to return to this site once I have [JavaScript](https://www.javascript.com/) under my belt. He's certainly helped show me what features will be available to me later on down the line.
 
 ![Rock On](https://github.com/Legaeldan/milestone-1/blob/master/assets/images/Rock-On.png "Rock On")
