@@ -508,7 +508,19 @@ ul {
     margin-left: -150px;
 }
 
+.logo-divider {
+    width: 340px;
+    height: 174px;
+    margin-top: -67px;
+    margin-left: -170px;
+}
 
+.logo-divider-red {
+    width: 340px;
+    height: 174px;
+    margin-top: -67px;
+    margin-left: -170px;
+}
 
 }
 
