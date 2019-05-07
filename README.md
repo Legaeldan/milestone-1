@@ -85,7 +85,9 @@ All code is checked via a [HTML Validator](https://validator.w3.org/) and [CSS V
 
 <h2>Deployment</h2>
 
-The main method of deployment is [GitHub Pages](https://legaeldan.github.io/milestone-1/index.html) . After discussions with my mentor, I was notified of GitHub pages, meaning I didn't need to boot up Cloud9 everytime I wished to showcase my site.
+This project was developed using the [Cloud9 IDE](https://c9.io) initially before moving locally to [Visual Studio Code](https://code.visualstudio.com/) and [Git](https://git-scm.com/downloads), committed to a local [Git](https://git-scm.com/downloads) repository, and pushed to [GitHub](https://github.com/Legaeldan/milestone-1) using a locally installed version of [Git](https://git-scm.com/downloads) via command prompt.
+
+The main method of deployment, [GitHub Pages](https://legaeldan.github.io/milestone-1/index.html), was chosen after a discussions with my mentor, and I was notified of GitHub pages, meaning I didn't need to boot up Cloud9 everytime I wished to showcase my site.
 
 All deployment to [GitHub](https://github.com/Legaeldan/milestone-1) have been done using [Visual Studio Code](https://code.visualstudio.com/), with [Git](https://git-scm.com/downloads) installed locally to push to the repository.
 
