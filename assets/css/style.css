@@ -491,6 +491,26 @@ ul {
     font-family: Cinzel;
 }
 
+@media (min-width: 300px) {}
+
+
+.logo-main {
+    width: 300px;
+    height: 154px;
+    margin-top: -77px;
+    margin-left: -150px;
+}
+
+.logo-main-red {
+    width: 300px;
+    height: 154px;
+    margin-top: -77px;
+    margin-left: -150px;
+}
+
+
+
+}
 
 @media (min-width: 576px) {
     .landing-index {
